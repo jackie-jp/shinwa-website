@@ -1,6 +1,4 @@
 "use client";
-import { ArrowUpRight, Forward } from "lucide-react";
-import { Button } from "./ui/button";
 import { AnimatedGridPattern } from "./ui/animated-grid-pattern";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";

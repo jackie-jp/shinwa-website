@@ -1,5 +1,4 @@
 import { HTMLAttributes } from "react";
-import { Logo } from "./navbar/logo";
 import { useTranslations } from "next-intl";
 
 function LogoCloud(props: HTMLAttributes<HTMLDivElement>) {

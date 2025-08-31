@@ -10,8 +10,9 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const { locale } = await params;
+export async function generateMetadata({ params }: { params?: Promise<{ locale: string }> }): Promise<Metadata> {
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale ?? 'ja';
   const messages = await getMessages({ locale });
 
   const title = messages?.Site?.title ?? messages?.Hero?.title ?? 'Shinwa';
@@ -56,9 +57,11 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   } as Metadata;
 }
 
-export default async function RootLayout(props: Readonly<{ children: React.ReactNode; params: { locale: string } }>) {
-  const { children, params } = props;
-  const { locale } = await params;
+export default async function RootLayout({ children, params }: { children?: React.ReactNode; params?: Promise<{ locale: string }> }) {
+  // Next's generated LayoutProps types params as an optional Promise. Await it
+  // and handle the undefined case with a fallback locale.
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale ?? 'ja';
   const messages = await getMessages({ locale });
   return (
     <html lang={locale} suppressHydrationWarning data-no-flash style={{ visibility: 'hidden' }}>

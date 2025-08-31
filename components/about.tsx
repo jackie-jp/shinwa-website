@@ -1,13 +1,6 @@
 "use client"
 
-import {
-  BadgeDollarSign,
-  Activity,
-  ShieldCheck,
-  House,
-  Airplay,
-  UserRoundCheck,
-} from "lucide-react";
+import { BadgeDollarSign, Activity, House, Airplay } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 // Use short keys because we call useTranslations("About") and then t('q1') resolves to About.q1

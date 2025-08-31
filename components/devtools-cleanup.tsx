@@ -7,15 +7,13 @@ export default function DevtoolsCleanup() {
     const selectors = [
       '#devtools-indicator',
       '.devtools-indicator',
-  '[data-devtools-indicator]',
-  '[data-nextjs-dev-overlay]',
+      '[data-devtools-indicator]',
+      '[data-nextjs-dev-overlay]',
       '[id*="devtools"]',
       '[class*="devtools"]',
     ].join(',');
 
-    // Instead of removing nodes (which can race with React and cause NotFoundError),
-    // prefer to hide them via inline styles. This avoids altering the DOM tree.
-    function safeRemoveElement(el: Element | Node | null) {
+    function safeHide(el: Element | null) {
       if (!el) return;
       try {
         const htmlEl = el as HTMLElement;
@@ -23,28 +21,19 @@ export default function DevtoolsCleanup() {
         htmlEl.style.visibility = 'hidden';
         htmlEl.style.pointerEvents = 'none';
         htmlEl.style.opacity = '0';
-      } catch (e) {
-        // ignore
+      } catch {
+        // ignore errors
       }
     }
 
     function removeMatching(root: Document | ShadowRoot) {
       try {
         const list = Array.from(root.querySelectorAll(selectors));
-        list.forEach((el) => {
-          // Defensive: remove element if possible
-          try {
-            safeRemoveElement(el);
-          } catch (e) {
-            // fallback: hide it
-            (el as HTMLElement).style.setProperty('display', 'none', 'important');
-            (el as HTMLElement).style.visibility = 'hidden';
-            (el as HTMLElement).style.pointerEvents = 'none';
-            (el as HTMLElement).style.opacity = '0';
-          }
-        });
-      } catch (e) {
-        // ignore cross-origin or other errors
+        for (const el of list) {
+          safeHide(el as Element);
+        }
+      } catch {
+        // ignore (cross-origin or other DOM access errors)
       }
     }
 
@@ -56,12 +45,17 @@ export default function DevtoolsCleanup() {
       try {
         const all = Array.from(document.querySelectorAll('*')) as Element[];
         for (const el of all) {
-          // @ts-ignore
-          const sr = (el as any).shadowRoot as ShadowRoot | null;
-          if (sr) removeMatching(sr);
+          const maybe = el as unknown as { shadowRoot?: unknown };
+          if (
+            maybe &&
+            typeof maybe.shadowRoot === "object" &&
+            maybe.shadowRoot !== null
+          ) {
+            removeMatching(maybe.shadowRoot as ShadowRoot);
+          }
         }
-      } catch (e) {
-        /* ignore */
+      } catch {
+        // ignore
       }
 
       // same-origin iframes
@@ -71,72 +65,83 @@ export default function DevtoolsCleanup() {
           try {
             const doc = iframe.contentDocument;
             if (doc) removeMatching(doc);
-          } catch (e) {
+          } catch {
             // cross-origin iframe, ignore
           }
         }
-      } catch (e) {
-        /* ignore */
+      } catch {
+        // ignore
       }
     }
 
     // Inject a style fallback (strong specificity + !important) as a secondary measure
     const style = document.createElement('style');
     style.setAttribute('data-devtools-cleanup', '1');
-  style.textContent = `#devtools-indicator, .devtools-indicator, [data-devtools-indicator], [data-nextjs-dev-overlay], [id*="devtools"], [class*="devtools"] { display: none !important; visibility: hidden !important; pointer-events: none !important; opacity: 0 !important; }`;
-    document.head?.appendChild(style);
+    style.textContent = `#devtools-indicator, .devtools-indicator, [data-devtools-indicator], [data-nextjs-dev-overlay], [id*="devtools"], [class*="devtools"] { display: none !important; visibility: hidden !important; pointer-events: none !important; opacity: 0 !important; }`;
+    try {
+      document.head?.appendChild(style);
+    } catch {
+      // ignore
+    }
 
     // Initial scan
     scanAll();
+
     // show page after initial cleanup attempt
     try {
-      document.documentElement.removeAttribute('data-no-flash');
-  // remove inline visibility:hidden set on the html element
-  try { document.documentElement.style.removeProperty('visibility'); } catch (e) { /* ignore */ }
-    } catch (e) {
-      /* ignore */
+      document.documentElement.removeAttribute("data-no-flash");
+      try {
+        document.documentElement.style.removeProperty("visibility");
+      } catch {
+        // ignore
+      }
+    } catch {
+      // ignore
     }
 
-    // Observe DOM mutations and remove newly injected nodes
+    // Observe DOM mutations and hide newly injected nodes
     const mo = new MutationObserver(() => {
       scanAll();
     });
-    mo.observe(document.documentElement || document.body, {
-      childList: true,
-      subtree: true,
-    });
+    try {
+      mo.observe(document.documentElement || document.body, {
+        childList: true,
+        subtree: true,
+      });
+    } catch {
+      // ignore
+    }
 
     // Stop after a short period to avoid perpetual work
     const stopTimeout = window.setTimeout(() => {
       try {
         mo.disconnect();
-      } catch (e) {
-        /* ignore */
+      } catch {
+        // ignore
       }
-      // show page after cleanup attempt
       try {
-        document.documentElement.removeAttribute('data-no-flash');
-      } catch (e) {
-        /* ignore */
+        document.documentElement.removeAttribute("data-no-flash");
+      } catch {
+        // ignore
       }
     }, 10_000);
 
     return () => {
       try {
         mo.disconnect();
-      } catch (e) {
-        /* ignore */
+      } catch {
+        // ignore
       }
       clearTimeout(stopTimeout);
       try {
-        try { style.remove(); } catch (e) { /* ignore */ }
-      } catch (e) {
-        /* ignore */
+        style.remove();
+      } catch {
+        // ignore
       }
       try {
-        document.documentElement.removeAttribute('data-no-flash');
-      } catch (e) {
-        /* ignore */
+        document.documentElement.removeAttribute("data-no-flash");
+      } catch {
+        // ignore
       }
     };
   }, []);

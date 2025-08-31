@@ -1,11 +1,4 @@
-import {
-  BadgeDollarSign,
-  Route,
-  ShieldCheck,
-  Truck,
-  Undo2,
-  UserRoundCheck,
-} from "lucide-react";
+import { BadgeDollarSign, Route, ShieldCheck, Truck, Undo2, UserRoundCheck } from "lucide-react";
 
 const faq = [
   {

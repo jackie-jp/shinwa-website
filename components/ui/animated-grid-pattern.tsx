@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import {
   ComponentPropsWithoutRef,
+  useCallback,
   useEffect,
   useId,
   useRef,
@@ -36,24 +37,24 @@ export function AnimatedGridPattern({
   ...props
 }: AnimatedGridPatternProps) {
   const id = useId();
-  const containerRef = useRef(null);
+  const containerRef = useRef<SVGSVGElement | null>(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
-  const [squares, setSquares] = useState(() => generateSquares(numSquares));
+  const [squares, setSquares] = useState(() =>
+    Array.from({ length: numSquares }, (_, i) => ({ id: i, pos: [0, 0] as [number, number] }))
+  );
 
   function getPos() {
     return [
       Math.floor((Math.random() * dimensions.width) / width),
       Math.floor((Math.random() * dimensions.height) / height),
-    ];
+    ] as [number, number];
   }
 
-  // Adjust the generateSquares function to return objects with an id, x, and y
-  function generateSquares(count: number) {
-    return Array.from({ length: count }, (_, i) => ({
-      id: i,
-      pos: getPos(),
-    }));
-  }
+  const generateSquares = useCallback(
+    (count: number) =>
+      Array.from({ length: count }, (_, i) => ({ id: i, pos: getPos() })),
+    [dimensions.width, dimensions.height, width, height]
+  );
 
   // Function to update a single square's position
   const updateSquarePosition = (id: number) => {
@@ -74,10 +75,12 @@ export function AnimatedGridPattern({
     if (dimensions.width && dimensions.height) {
       setSquares(generateSquares(numSquares));
     }
-  }, [dimensions, numSquares]);
+  }, [dimensions.width, dimensions.height, numSquares, generateSquares]);
 
   // Resize observer to update container dimensions
   useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
     const resizeObserver = new ResizeObserver((entries) => {
       for (const entry of entries) {
         setDimensions({
@@ -87,13 +90,13 @@ export function AnimatedGridPattern({
       }
     });
 
-    if (containerRef.current) {
-      resizeObserver.observe(containerRef.current);
-    }
+    resizeObserver.observe(el);
 
     return () => {
-      if (containerRef.current) {
-        resizeObserver.unobserve(containerRef.current);
+      try {
+        resizeObserver.unobserve(el);
+      } catch {
+        // ignore
       }
     };
   }, [containerRef]);
