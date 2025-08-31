@@ -1,0 +1,73 @@
+{
+    "Hero": 
+    {
+        "badge": "v1.0.0 is available now! 🚀",
+        "title": "Shinwa Corporation",
+        "description": "Shinwa Corporation is a newly established company in Japan, founded on the principles of trust and harmony. We are committed to creating long-term value for our clients through diversified business operations. With an international perspective and cross-cultural communication strengths, Shinwa Corporation actively engages in four core business areas: IT consulting and software development, medical coordination, real estate, and international trade. Backed by extensive experience and a professional team, we always place our clients’ trust as our top priority and consistently deliver high-quality, reliable solutions.",
+        "getStarted": "Get Started",
+        "watchDemo": "Watch Demo"
+    },
+
+    "Site": {
+        "title": "Shinwa",
+        "description": "Customized Shadcn UI Blocks & Components"
+    },
+
+    "LanguageDropdown": 
+    {
+        "language": "Language"
+    },
+    
+    "nav-menu": 
+    {
+        "home": "Home",
+        "contactUs": "Contact Us",
+        "about": "About"
+    }
+    ,
+    "About": {
+        "title": "About Us",
+        "description": "",
+        "q1": "IT Consulting & Development",
+        "a1": "・Providing software development and consulting for web, mobile, and PC platforms\n・Offering software project management and Bridge SE (bridge system engineering) services\n・Equipped with rich IT development and project management experience, capable of delivering efficient and flexible solutions",
+        "q2": "Medical Coordination",
+        "a2": "・Providing professional medical coordination services for overseas clients based on world-class Japanese medical resources\n・Supporting precise medical examinations, medical translation, medical arrangements, hospital appointments, etc.\n・Providing reliable and convenient medical services for those in need",
+        "q3": "Real Estate",
+        "a3": "・Engaging in real estate sales and rental services in Japan\n・Focusing on whole-building apartment investments, combining long-term rental with short-term hotel or vacation rental operations\n・Serving both domestic rental demand and overseas investors’ interests",
+        "q4": "International Trade",
+        "a4": "・Specializing in the export of high-quality Japanese products to global markets\n・Product categories include watches, fashion, cosmetics, beauty & healthcare products\n・Aiming to bring Japan’s trusted and refined lifestyle to clients around the world",
+        "q5": "",
+        "a5": "",
+        "q6": "",
+        "a6": ""
+    },
+    "logo-cloud": {
+        "power": "Technical support and solutions"
+    }
+    ,
+    "Footer": {
+        "links": {
+            "home": "Home",
+            "about": "About",
+            "contactUs": "Contact Us",
+            "testimonials": "Testimonials",
+            "privacy": "Privacy"
+        },
+        "subscribe": {
+            "title": "Stay up to date",
+            "placeholder": "Enter your email",
+            "button": "Subscribe"
+        },
+        "copyright": {
+            "brand": "Shinwa Corporation",
+            "rights": ". All rights reserved."
+        }
+    }
+    ,
+    "CtaBanner": {
+        "title": "Contact Us",
+        "description": "For technical support or business inquiries, please feel free to contact us at any time.",
+        "email": "Email:shinwa.jp.co@gmail.com",
+        "address": "Add:2-chōme-6-14 Hirano Ichimachi, Hirano Ward, Osaka, 547-0042"
+    }
+}

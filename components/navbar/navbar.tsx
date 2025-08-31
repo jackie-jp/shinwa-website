@@ -1,8 +1,9 @@
+import LanguageDropdown from "../LanguageDropdown";
+import ThemeToggle from "../theme-toggle";
 import { Button } from "@/components/ui/button";
 import { Logo } from "./logo";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
-import ThemeToggle from "../theme-toggle";
 
 const Navbar = () => {
   return (
@@ -14,6 +15,7 @@ const Navbar = () => {
         <NavMenu className="hidden md:block" />
 
         <div className="flex items-center gap-3">
+          <LanguageDropdown />
           <ThemeToggle />
           <Button variant="outline" className="hidden sm:inline-flex">
             Sign In
