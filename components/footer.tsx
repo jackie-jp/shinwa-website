@@ -12,7 +12,9 @@ import { useTranslations } from "next-intl";
 const footerLinks = [
   { key: "home", href: "#hero" },
   { key: "about", href: "#about" },
-  { key: "contactUs", href: "#cta-banner" },
+  { key: "solution", href: "#solution" },
+  { key: "websitePreview", href: "#website-preview" },
+   { key: "contactUs", href: "#contact-us" },
   /* { key: "testimonials", href: "#testimonials" }, */
   /* { key: "privacy", href: "#privacy" }, */
 ];

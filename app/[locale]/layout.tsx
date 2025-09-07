@@ -58,19 +58,21 @@ export async function generateMetadata({ params }: { params?: Promise<{ locale: 
 }
 
 export default async function RootLayout({ children, params }: { children?: React.ReactNode; params?: Promise<{ locale: string }> }) {
-  // Next's generated LayoutProps types params as an optional Promise. Await it
-  // and handle the undefined case with a fallback locale.
-  const resolvedParams = await params;
-  const locale = resolvedParams?.locale ?? 'ja';
+  // 处理 params，保证 locale 正确
+  let locale = 'ja';
+  if (params) {
+    const resolvedParams = await params;
+    if (resolvedParams?.locale) locale = resolvedParams.locale;
+  }
   const messages = await getMessages({ locale });
   return (
     <html lang={locale} suppressHydrationWarning data-no-flash style={{ visibility: 'hidden' }}>
       <head>
         {/* Critical inline style to hide devtools indicator before paint */}
-  <style id="devtools-inline-hide" dangerouslySetInnerHTML={{ __html: `#devtools-indicator, .devtools-indicator, [data-devtools-indicator], [data-nextjs-dev-overlay], [id*="devtools"], [class*="devtools"] { display: none !important; visibility: hidden !important; pointer-events: none !important; opacity: 0 !important; }` }} />
-  {/* Hide entire document until client cleanup removes data-no-flash to avoid flash of injected devtools */}
-  <style dangerouslySetInnerHTML={{ __html: `html[data-no-flash] { visibility: hidden !important; }` }} />
-  {/* Immediate DOM-removal script removed to prevent hydration mismatches; DevtoolsCleanup runs on client after hydration. */}
+        <style id="devtools-inline-hide" dangerouslySetInnerHTML={{ __html: `#devtools-indicator, .devtools-indicator, [data-devtools-indicator], [data-nextjs-dev-overlay], [id*="devtools"], [class*="devtools"] { display: none !important; visibility: hidden !important; pointer-events: none !important; opacity: 0 !important; }` }} />
+        {/* Hide entire document until client cleanup removes data-no-flash to avoid flash of injected devtools */}
+        <style dangerouslySetInnerHTML={{ __html: `html[data-no-flash] { visibility: hidden !important; }` }} />
+        {/* Immediate DOM-removal script removed to prevent hydration mismatches; DevtoolsCleanup runs on client after hydration. */}
       </head>
       <body className={`${geistSans.className} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>

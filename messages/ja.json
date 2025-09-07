@@ -21,7 +21,9 @@
     "nav-menu": {
         "home": "ホーム",
         "contactUs": "お問い合わせ",
-        "about": "企業情報"
+        "about": "企業情報",
+        "solution": "ソリューション",
+        "websitePreview": "ウェブサイトプレビュー"
     }
     ,
     "About": {
@@ -49,8 +51,8 @@
             "home": "ホーム",
             "about": "企業情報",
             "contactUs": "お問い合わせ",
-            "testimonials": "",
-            "privacy": ""
+            "solution": "ソリューション",
+            "websitePreview": "ウェブサイトプレビュー"
         },
         "subscribe": {
             "title": "最新情報を受け取る",
@@ -63,10 +65,25 @@
         }
     }
     ,
-    "CtaBanner": {
+    "ContactUs": {
         "title": "お問い合わせ",
         "description": "技術サポートやビジネスに関するお問い合わせは、いつでもお気軽にご連絡ください。",
         "email": "Email:shinwa.jp.co@gmail.com",
         "address": "住所: 〒547-0042 大阪市平野区平野市場町2丁目6-14"
+    },
+    "Solution": {
+        "badge": "EDA+プラグインフレームワーク v1.0.0 近日公開予定",
+        "title": "カスタマイズされたソリューション EDA & プラグイン",
+        "desc1": "・「イベント駆動の未来、プラグインの自由」 — 高凝集・低結合のビジネスエコシステムを構築。",
+        "desc2": "・「モノリスからモジュール化へ、結合から分離へ」 — 複雑なビジネスを制御するためのフレームワーク。",
+        "desc3": "・「CQRSとイベントバスをネイティブにサポート」 — スタートアップのためのプロダクション級基盤。",
+        "getStarted": "始める",
+        "watchDemo": "デモを見る"
+    }
+    ,
+    "WebsitePreview": {
+        "title": "ウェブサイトプレビューギャラリー",
+        "description": "複数のサイト体験を横断表示。ホバーで一時停止、クリックで大きな画像を表示。",
+        "view": "表示"
     }
 }

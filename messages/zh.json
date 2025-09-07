@@ -20,7 +20,9 @@
     {
         "home": "首页",
         "contactUs": "联系我们",
-        "about": "关于我们"
+        "about": "关于我们",
+        "solution": "解决方案",
+        "websitePreview": "网站预览"
     }
     ,
     "About": {
@@ -48,8 +50,8 @@
             "home": "首页",
             "about": "关于我们",
             "contactUs": "联系我们",
-            "testimonials": "",
-            "privacy": ""
+            "solution": "解决方案",
+            "websitePreview": "网站预览"
         },
         "subscribe": {
             "title": "保持更新",
@@ -62,10 +64,25 @@
         }
     }
     ,
-    "CtaBanner": {
+    "ContactUs": {
         "title": "联系我们",
         "description": "如需技术支持或商务咨询，欢迎随时与我们联系。",
         "email": "邮箱: shinwa.jp.co@gmail.com",
         "address": "地址: 大阪市平野区平野市场町2丁目6-14，邮编547-0042"
+    },
+    "Solution": {
+        "badge": "EDA+插件化框架 v1.0.0 即将发布",
+        "title": "定制化解决方案 EDA & 插件",
+        "desc1": "・「事件驱动的未来，插件化的自由」 — 构建高内聚、低耦合的业务生态。",
+        "desc2": "・「从单体到模块化，从耦合到解耦」 — 一套框架，驾驭复杂业务。",
+        "desc3": "・「天然支持CQRS与事件总线」 — 为初创公司打造的生产级基座。",
+        "getStarted": "开始使用",
+        "watchDemo": "观看演示"
+    }
+    ,
+    "WebsitePreview": {
+        "title": "网站预览画廊",
+        "description": "展示多个网站体验。悬停暂停，点击查看大图。",
+        "view": "查看"
     }
 }

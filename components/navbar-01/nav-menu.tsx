@@ -44,6 +44,16 @@ export const NavMenu = (props: NavigationMenuProps) => {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
+            <Link href={makeAnchor('solution')}>{t("solution")}</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link href={makeAnchor('website-preview')}>{t("websitePreview")}</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
             <Link href={makeAnchor('contact')}>{t("contactUs")}</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>

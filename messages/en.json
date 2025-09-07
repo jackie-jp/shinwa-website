@@ -22,7 +22,9 @@
     {
         "home": "Home",
         "contactUs": "Contact Us",
-        "about": "About"
+        "about": "About",
+        "solution": "Solutions",
+        "websitePreview": "Website Preview"
     }
     ,
     "About": {
@@ -50,8 +52,8 @@
             "home": "Home",
             "about": "About",
             "contactUs": "Contact Us",
-            "testimonials": "Testimonials",
-            "privacy": "Privacy"
+            "solution": "Solution",
+            "websitePreview": "Website Preview"
         },
         "subscribe": {
             "title": "Stay up to date",
@@ -64,10 +66,25 @@
         }
     }
     ,
-    "CtaBanner": {
+    "ContactUs": {
         "title": "Contact Us",
         "description": "For technical support or business inquiries, please feel free to contact us at any time.",
         "email": "Email:shinwa.jp.co@gmail.com",
         "address": "Add:2-chōme-6-14 Hirano Ichimachi, Hirano Ward, Osaka, 547-0042"
+    },
+    "Solution": {
+        "badge": "EDA+Pluggable framework v1.0.0 is coming soon",
+        "title": "Customized Solutions EDA & Plugins",
+        "desc1": "・The future is event-driven, the freedom is plug-in. — Build a highly cohesive, loosely coupled business ecosystem.",
+        "desc2": "・From monolithic to modular, from coupled to decoupled. — One framework to master complex business.",
+        "desc3": "・Native support for CQRS and Event Bus. — A production-grade foundation for startups.",
+        "getStarted": "Get Started",
+        "watchDemo": "Watch Demo"
+    }
+    ,
+    "WebsitePreview": {
+        "title": "Website Preview Gallery",
+        "description": "Showcasing multiple site experiences. Hover to pause, click to view a larger image.",
+        "view": "View"
     }
 }
