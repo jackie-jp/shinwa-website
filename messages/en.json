@@ -264,5 +264,18 @@
             "desc": "Build a Plugin-Driven Industry Platform. Enterprise software becomes not a monolithic system, but a composable software ecosystem like an App Store.",
             "cta": "Start Exploring"
         }
+    },
+    "NewsBanner": {
+        "tags": {
+            "release": "New Release",
+            "announcement": "Announcement",
+            "update": "Update"
+        },
+        "news1": "🎉 BRIX Framework is now open source! Build plugin-driven enterprise applications",
+        "news2": "🚀 Shinwa Website v2.0 launched with new Solution showcase",
+        "news3": "📢 Shinwa Corporation officially established, welcome to our homepage",
+        "learnMore": "Learn More",
+        "viewDetails": "View Details",
+        "readMore": "Read More"
     }
 }

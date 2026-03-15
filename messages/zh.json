@@ -262,5 +262,18 @@
             "desc": "构建插件驱动的行业平台。让企业软件不再是单体系统，而是像 App Store 一样的可组合软件生态。",
             "cta": "开始探索"
         }
+    },
+    "NewsBanner": {
+        "tags": {
+            "release": "新品发布",
+            "announcement": "公告",
+            "update": "更新"
+        },
+        "news1": "🎉 BRIX Framework 正式开源！构建插件驱动的企业级应用",
+        "news2": "🚀 信和官网 v2.0 上线，全新解决方案展示",
+        "news3": "📢 信和株式会社正式成立，欢迎访问我们的主页",
+        "learnMore": "了解详情",
+        "viewDetails": "查看详情",
+        "readMore": "阅读更多"
     }
 }

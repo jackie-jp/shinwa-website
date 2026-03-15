@@ -5,11 +5,13 @@ import { Navbar01 } from "@/components/navbar-01";
 import Solution from "@/components/solution";
 import ContactUs from "@/components/contact-us";
 import WebsitePreview from "@/components/website-preview";
+import NewsBanner from "@/components/news-banner";
 
 
 export default function Home() {
   return (
     <>
+      <NewsBanner />
       <Navbar01 />
       <main className="pt-16 xs:pt-20 sm:pt-24">
         <Hero />
