@@ -1,0 +1,267 @@
+{
+    "Hero": 
+    {
+        "badge": "v1.0.0が利用可能になりました！🚀",
+        "title": "信和株式会社",
+        "description": "信和株式会社は、「信頼」と「調和」を企業理念とし、多様な事業を通じてお客様に長期的な価値を提供することを目指す新興企業です。国際的な視野とクロスカルチャーの強みを活かし、IT コンサルティング・ソフトウェア開発、医療コーディネート、不動産事業、国際貿易という 4 つの主要分野を積極的に展開しています。豊富な経験と専門的なチームを基盤に、私たちは常にお客様の信頼を第一に考え、信頼できる高品質なソリューションを提供し続けます。",
+        "getStarted": "始める",
+        "watchDemo": "デモを見る"
+    },
+    
+    "Site": {
+        "title": "信和株式会社",
+        "description": "カスタマイズされたShadcn UIブロック＆コンポーネント"
+    },
+    
+    "LanguageDropdown": 
+    {
+        "language": "言語"
+    },
+    
+    "nav-menu": {
+        "home": "ホーム",
+        "contactUs": "お問い合わせ",
+        "about": "企業情報",
+        "solution": "ソリューション",
+        "websitePreview": "ウェブサイトプレビュー"
+    }
+    ,
+    "About": {
+        "title": "企業情報",
+        "description": "",
+        "q1": "IT コンサルティング・開発",
+        "a1": "・Web、モバイル、PC 向けソフトウェアの開発・コンサルティング\n・ソフトウェアプロジェクト管理および Bridge SE 支援\n・豊富な IT 開発経験とプロジェクト管理能力に基づき、効率的で柔軟なソリューションを提供",
+        "q2": "医療コーディネート事業",
+        "a2": "・世界トップクラスの日本医療を背景に、海外顧客向けに専門的な医療コーディネートを提供\n・精密検診、医療通訳、診療スケジュール調整、病院予約などをサポート\n・支援を必要とする方に、信頼できる便利な医療サービスを提供",
+        "q3": "不動産事業",
+        "a3": "・日本国内の不動産売買・賃貸サービスを提供\n・一棟マンションへの投資に注力し、長期賃貸および短期ホテル・民泊運営を両立\n・日本人の賃貸文化ニーズと海外投資家の需要に応える",
+        "q4": "国際貿易",
+        "a4": "・日本の高品質な製品を海外市場へ輸出\n・時計、ファッション、化粧品、薬粧品、健康食品などを取り扱い\n・日本の安心・安全で洗練されたライフスタイルを世界の顧客へ届ける",
+        "q5": "",
+        "a5": "",
+        "q6": "",
+        "a6": ""
+    },
+    "logo-cloud": {
+        "power": "技術サポートとソリューション"
+    }
+    ,
+    "Footer": {
+        "links": {
+            "home": "ホーム",
+            "about": "企業情報",
+            "contactUs": "お問い合わせ",
+            "solution": "ソリューション",
+            "websitePreview": "ウェブサイトプレビュー"
+        },
+        "subscribe": {
+            "title": "最新情報を受け取る",
+            "placeholder": "メールアドレスを入力",
+            "button": "登録"
+        },
+        "copyright": {
+            "brand": "信和株式会社",
+            "rights": "。無断転載を禁じます。"
+        }
+    }
+    ,
+    "ContactUs": {
+        "title": "お問い合わせ",
+        "description": "技術サポートやビジネスに関するお問い合わせは、いつでもお気軽にご連絡ください。",
+        "email": "Email:shinwa.jp.co@gmail.com",
+        "address": "住所: 〒547-0042 大阪府大阪市平野区平野市町二丁目6番14号ドリーム平野Ｄ３１室"
+    },
+    "Solution": {
+        "badge": "Brix Framework v1.0.0 リリース 🎉",
+        "title": "カスタマイズされたソリューション EDA & プラグイン",
+        "desc1": "・「イベント駆動の未来、プラグインの自由」 — 高凝集・低結合のビジネスエコシステムを構築。",
+        "desc2": "・「モノリスからモジュール化へ、結合から分離へ」 — 複雑なビジネスを制御するためのフレームワーク。",
+        "desc3": "・「CQRSとイベントバスをネイティブにサポート」 — スタートアップのためのプロダクション級基盤。",
+        "getStarted": "始める",
+        "watchDemo": "デモを見る",
+        "details": "詳細を見る"
+    }
+    ,
+    "WebsitePreview": {
+        "title": "ウェブサイトプレビューギャラリー",
+        "description": "複数のサイト体験を横断表示。ホバーで一時停止、クリックで大きな画像を表示。",
+        "view": "表示"
+    },
+    "Brix": {
+        "badge": "オープンソースフレームワーク",
+        "title": "BRIX Framework",
+        "subtitle": "次世代Plugin-Driven（プラグイン駆動型）エンタープライズアプリケーションプラットフォーム。Capability Contract（能力契約）とPlugin Runtimeにより、複雑な企業システムを独立して開発・デプロイ・アップグレード可能なビジネスプラグインに分解し、Composable Platform（コンポーザブルプラットフォーム）アーキテクチャを実現。",
+        "back": "戻る",
+        "pluginDriven": {
+            "title": "Plugin-Driven Platform（プラグイン駆動プラットフォーム）",
+            "desc": "プラグインで企業システムを構築。BrixはプラグインアーキテクチャによりBusiness Capability Plugins（ビジネス能力プラグイン）として分解。",
+            "problems": {
+                "title": "従来の企業システムの課題",
+                "p1": "ビジネス成長に伴いシステム複雑度が指数関数的に増加",
+                "p2": "深刻なモジュール結合、バージョンアップグレードが困難",
+                "p3": "異なる顧客ニーズへの迅速なカスタマイズ対応が困難",
+                "p4": "システム進化とメンテナンスコストが継続的に高止まり"
+            },
+            "plugins": {
+                "title": "Runtime Capability Contract（ランタイム能力契約）",
+                "desc": "各能力は独立したコントラクトユニット。プラグインは実装ではなく能力インターフェースのみに依存し、クロス環境再利用とHot-Swappable（ホットスワップ）を実現。"
+            }
+        },
+        "modes": {
+            "title": "Deployment Modes（デプロイモード）",
+            "desc": "Brixは異なるビジネスシナリオに対応する3つの柔軟なデプロイモードをサポート。",
+            "standalone": {
+                "title": "Standalone Mode（スタンドアロンモード）",
+                "desc": "完全な独立プラットフォーム製品を構築。SaaS提供とプライベートデプロイメントシナリオに最適。"
+            },
+            "embedded": {
+                "title": "Embedded Mode（エンベデッドモード）",
+                "desc": "ビジネス能力をプラグインとして既存の顧客システムに組み込み。顧客のテックスタックを置き換える必要なく、段階的な能力拡張を実現。"
+            },
+            "sdk": {
+                "title": "SDK & API Mode（オープンプラットフォームモード）",
+                "desc": "プラットフォーム能力を開放し、パートナーやサードパーティ開発者の統合をサポート、エコシステムを構築。"
+            }
+        },
+        "architecture": {
+            "title": "Platform Architecture（プラットフォームアーキテクチャ）",
+            "desc": "Runtime Shell（ランタイムシェル）アーキテクチャ設計に基づき、Capability Contract System（能力契約体系）を導入し、プラグインとインフラの完全な疎結合を実現。",
+            "layer1": {
+                "title": "Host Layer（プラットフォームホスト層）",
+                "desc": "Ultra-Thin Host（極薄ホスト）設計、純粋な設定駆動型の組み立てシェル。Standalone HostとEmbedded Hostの両形態をサポートし、等価の能力インターフェースを提供。"
+            },
+            "layer2": {
+                "title": "Capability Contract（能力契約層）",
+                "desc": "プラグイン間の統一ランタイムインターフェース標準を定義：EventBus、StateStore、AuthContext、Lifecycle、Observability。"
+            },
+            "layer3": {
+                "title": "Business Plugins（ビジネスプラグイン層）",
+                "desc": "企業ビジネス能力がプラグインとして存在し、完全なライフサイクル管理をサポート：Install → Activate → Update → Disable → Remove。各プラグインは独立販売・独立デプロイ可能。"
+            },
+            "layer4": {
+                "title": "Frontend Runtime（フロントエンドランタイム層）",
+                "desc": "Module Federationベースのフロントエンドプラグインアーキテクチャ。Shared RuntimeがReact、Router、State Managementを統一提供し、マルチプラグインランタイム依存の競合を解決。"
+            },
+            "layer5": {
+                "title": "Infrastructure（プラットフォームインフラ）",
+                "desc": "Cloud-Native（クラウドネイティブ）アーキテクチャ、Adapter Pattern（アダプターパターン）でインフラに接続、プラグインコードはインフラ依存ゼロ。"
+            }
+        },
+        "techStack": {
+            "title": "Technology Stack（技術スタック）",
+            "desc": "実績のあるエンタープライズグレードのオープンソース技術スタックを採用し、本番レベルの安定性とコミュニティエコシステムサポートを確保。",
+            "backend": "バックエンド：Spring Boot、PostgreSQL、Redis、Kafka",
+            "frontend": "フロントエンド：React、TypeScript、Module Federation",
+            "observability": "オブザーバビリティ：OpenTelemetry、Prometheus、Grafana",
+            "infrastructure": "インフラ：Kubernetes、Docker、Helm"
+        },
+        "fullStack": {
+            "title": "フルスタックプラグインアーキテクチャ",
+            "desc": "フロントエンドとバックエンドの対称プラグインアーキテクチャ。両方がプラグインとして存在し、統一されたCapability ContractによりHost Runtime上で動作、Full-Stack Separation（前後完全分離）を実現。",
+            "components": {
+                "title": "プラグイン構成",
+                "api": "plugin-api",
+                "apiDesc": "インターフェース契約層 - サービス契約とドメインモデル",
+                "core": "plugin-core",
+                "coreDesc": "コアロジック層 - ビジネスルールとドメインサービス実装",
+                "server": "plugin-server",
+                "serverDesc": "サービスランタイム層 - REST/GraphQLエンドポイントと統合",
+                "shared": "plugin-shared",
+                "sharedDesc": "共有機能層 - クロスプラグインユーティリティと型",
+                "ui": "plugin-ui-web / plugin-ui-mobile",
+                "uiDesc": "フロントエンド層 - Web/Mobileユーザーインターフェースコンポーネント"
+            },
+            "benefits": {
+                "title": "アーキテクチャの利点",
+                "b1": "統一された開発モデル、認知コストを低減",
+                "b2": "プラグイン独立デプロイ、カナリアリリース対応",
+                "b3": "極めて低い拡張コスト、線形成長",
+                "b4": "大規模プラットフォームの長期的進化を支援、アーキテクチャの腐敗を回避"
+            }
+        },
+        "ecosystem": {
+            "title": "プラグインエコシステム",
+            "desc": "Brixは単なるフレームワークではなく、多層級商業化エコシステム構築をサポートする完全なプラグインエコシステムプラットフォーム。",
+            "commercial": {
+                "title": "商業レイヤー",
+                "l1": "レベル 1",
+                "l2": "レベル 2",
+                "l3": "レベル 3",
+                "l4": "レベル 4",
+                "platform": "フルプラットフォーム",
+                "platformDesc": "ランタイムシェルと全コアプラグインを含む完全なプラットフォームソリューション",
+                "solution": "ソリューションパック",
+                "solutionDesc": "特定の垂直分野向けの業界ソリューションスイート",
+                "bundle": "プラグインバンドル",
+                "bundleDesc": "特定のビジネスシナリオ向けの機能モジュール組み合わせ",
+                "plugin": "シングルプラグイン",
+                "pluginDesc": "即座に使用可能なアトミック機能を持つ独立した機能プラグイン"
+            },
+            "core": {
+                "title": "コアプラグイン",
+                "desc": "プラットフォーム提供の基本ビジネス能力プラグイン"
+            },
+            "solutions": {
+                "title": "ソリューションパック",
+                "desc": "特定業界向けのプラグイン組み合わせソリューション"
+            },
+            "partner": {
+                "title": "パートナーマーケットプレイス",
+                "desc": "サードパーティ開発者が公開するエコシステムアプリケーション"
+            }
+        },
+        "devex": {
+            "title": "Developer Experience（開発者体験）",
+            "desc": "Runtime Shell の複雑さはプラグイン開発者には見えません。開発者は Capability Contract を理解するだけでエンタープライズグレードのプラグインを構築可能。",
+            "sdk": {
+                "title": "Plugin SDK",
+                "desc": "標準化開発キット、ビジネスロジックに集中"
+            },
+            "cli": {
+                "title": "CLI Scaffolding",
+                "desc": "create-brix でプロジェクト構造を自動生成"
+            },
+            "guard": {
+                "title": "Architecture Guard",
+                "desc": "自動化されたアーキテクチャ保護"
+            },
+            "tokens": {
+                "title": "Design Tokens",
+                "desc": "統一デザインシステムで UI 一貫性を確保"
+            },
+            "hotReload": {
+                "title": "Hot Reload",
+                "desc": "プラグインレベルのホットリロード"
+            },
+            "typeSafe": {
+                "title": "Type Safety",
+                "desc": "エンドツーエンドの型安全性"
+            }
+        },
+        "value": {
+            "title": "Core Value（コアバリュー）",
+            "desc": "Runtime Shell アーキテクチャ設計に基づき、エンタープライズグレードのプラットフォーム機能を提供。",
+            "platform": {
+                "title": "Zero Infrastructure Dependency（ゼロインフラ依存）",
+                "desc": "プラグインコードに Kafka/Redis/HTTP Client などのインフラ依存を禁止。Capability Contract を通じてのみランタイムと対話し、異なる Host 間でシームレスに移行可能。"
+            },
+            "solutions": {
+                "title": "Host Portability（ホストポータビリティ）",
+                "desc": "Standalone Host と Embedded Host は同等の Capability インターフェースを提供。同じプラグインが異なるデプロイモードで無修正で実行可能。Build Once, Deploy Anywhere。"
+            },
+            "ecosystem": {
+                "title": "Event-Driven Decoupling（イベント駆動疑結合）",
+                "desc": "プラグイン間は互いに認識せず、Domain Event と Integration Event のみで通信。Runtime Shell がイベントルーティングと変換を担当、完全なオブザーバビリティを提供。"
+            },
+            "separation": {
+                "title": "Full-Stack Separation（フルスタック分離）",
+                "desc": "フロントエンドは View → ViewModel → Repository パターンを採用。大規模な UI 変更時にバックエンドコードの修正が不要。フロントエンドとバックエンドチームが並行開発可能。"
+            }
+        },
+        "vision": {
+            "title": "長期ビジョン",
+            "desc": "プラグイン駆動型の業界プラットフォームを構築。企業ソフトウェアはもはや単体システムではなく、App Store のような組み合わせ可能なソフトウェアエコシステムへ。",
+            "cta": "探索を始める"
+        }
+    }
+}

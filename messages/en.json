@@ -1,0 +1,268 @@
+{
+    "Hero": 
+    {
+        "badge": "v1.0.0 is available now! 🚀",
+        "title": "Shinwa Corporation",
+        "description": "Shinwa Corporation is a newly established company in Japan, founded on the principles of trust and harmony. We are committed to creating long-term value for our clients through diversified business operations. With an international perspective and cross-cultural communication strengths, Shinwa Corporation actively engages in four core business areas: IT consulting and software development, medical coordination, real estate, and international trade. Backed by extensive experience and a professional team, we always place our clients’ trust as our top priority and consistently deliver high-quality, reliable solutions.",
+        "getStarted": "Get Started",
+        "watchDemo": "Watch Demo"
+    },
+
+    "Site": {
+        "title": "Shinwa",
+        "description": "Customized Shadcn UI Blocks & Components"
+    },
+
+    "LanguageDropdown": 
+    {
+        "language": "Language"
+    },
+    
+    "nav-menu": 
+    {
+        "home": "Home",
+        "contactUs": "Contact Us",
+        "about": "About",
+        "solution": "Solutions",
+        "websitePreview": "Website Preview"
+    }
+    ,
+    "About": {
+        "title": "About Us",
+        "description": "",
+        "q1": "IT Consulting & Development",
+        "a1": "・Providing software development and consulting for web, mobile, and PC platforms\n・Offering software project management and Bridge SE (bridge system engineering) services\n・Equipped with rich IT development and project management experience, capable of delivering efficient and flexible solutions",
+        "q2": "Medical Coordination",
+        "a2": "・Providing professional medical coordination services for overseas clients based on world-class Japanese medical resources\n・Supporting precise medical examinations, medical translation, medical arrangements, hospital appointments, etc.\n・Providing reliable and convenient medical services for those in need",
+        "q3": "Real Estate",
+        "a3": "・Engaging in real estate sales and rental services in Japan\n・Focusing on whole-building apartment investments, combining long-term rental with short-term hotel or vacation rental operations\n・Serving both domestic rental demand and overseas investors’ interests",
+        "q4": "International Trade",
+        "a4": "・Specializing in the export of high-quality Japanese products to global markets\n・Product categories include watches, fashion, cosmetics, beauty & healthcare products\n・Aiming to bring Japan’s trusted and refined lifestyle to clients around the world",
+        "q5": "",
+        "a5": "",
+        "q6": "",
+        "a6": ""
+    },
+    "logo-cloud": {
+        "power": "Technical support and solutions"
+    }
+    ,
+    "Footer": {
+        "links": {
+            "home": "Home",
+            "about": "About",
+            "contactUs": "Contact Us",
+            "solution": "Solution",
+            "websitePreview": "Website Preview"
+        },
+        "subscribe": {
+            "title": "Stay up to date",
+            "placeholder": "Enter your email",
+            "button": "Subscribe"
+        },
+        "copyright": {
+            "brand": "Shinwa Corporation",
+            "rights": ". All rights reserved."
+        }
+    }
+    ,
+    "ContactUs": {
+        "title": "Contact Us",
+        "description": "For technical support or business inquiries, please feel free to contact us at any time.",
+        "email": "Email:shinwa.jp.co@gmail.com",
+        "address": "Add:Room D31, Dream Hirano 2-6-14 Hirano Ichimachi, Hirano-ku Osaka-shi, Osaka 547-0042 Japan"
+    },
+    "Solution": {
+        "badge": "Brix Framework v1.0.0 Released 🎉",
+        "title": "Customized Solutions EDA & Plugins",
+        "desc1": "・The future is event-driven, the freedom is plug-in. — Build a highly cohesive, loosely coupled business ecosystem.",
+        "desc2": "・From monolithic to modular, from coupled to decoupled. — One framework to master complex business.",
+        "desc3": "・Native support for CQRS and Event Bus. — A production-grade foundation for startups.",
+        "getStarted": "Get Started",
+        "watchDemo": "Watch Demo",
+        "details": "Learn More"
+    }
+    ,
+    "WebsitePreview": {
+        "title": "Website Preview Gallery",
+        "description": "Showcasing multiple site experiences. Hover to pause, click to view a larger image.",
+        "view": "View"
+    },
+    "Brix": {
+        "badge": "Open Source Framework",
+        "title": "BRIX Framework",
+        "subtitle": "Next-generation plugin-driven enterprise application platform. Through Capability Contract and Plugin Runtime, decompose complex enterprise systems into independently developable, deployable, and upgradeable business plugins, achieving a Composable Platform architecture.",
+        "back": "Back",
+        "pluginDriven": {
+            "title": "Plugin-Driven Platform",
+            "desc": "Build enterprise systems with plugins. Brix decomposes enterprise systems into independent Business Capability Plugins through plugin architecture.",
+            "problems": {
+                "title": "Traditional Enterprise System Challenges",
+                "p1": "System complexity grows exponentially with business growth",
+                "p2": "Severe module coupling makes version upgrades difficult",
+                "p3": "Hard to quickly customize for different customer needs",
+                "p4": "Continuously high system evolution and maintenance costs"
+            },
+            "plugins": {
+                "title": "Runtime Capability Contract",
+                "desc": "Each capability is an independent contract unit. Plugins only depend on capability interfaces, not implementations, enabling cross-environment reuse and hot-swapping."
+            }
+        },
+        "modes": {
+            "title": "Deployment Modes",
+            "desc": "Brix supports three flexible deployment modes to meet different business scenarios.",
+            "standalone": {
+                "title": "Standalone Mode",
+                "desc": "Build complete standalone platform products, suitable for SaaS delivery and private deployment scenarios."
+            },
+            "embedded": {
+                "title": "Embedded Mode",
+                "desc": "Embed business capabilities as plugins into existing customer systems, no need to replace customer tech stack, achieving progressive capability enhancement."
+            },
+            "sdk": {
+                "title": "SDK & API Mode",
+                "desc": "Open platform capabilities, support partner and third-party developer integration, building an ecosystem."
+            }
+        },
+        "architecture": {
+            "title": "Platform Architecture",
+            "desc": "Based on Runtime Shell architecture design, introducing Capability Contract System to achieve complete decoupling between plugins and infrastructure.",
+            "layer1": {
+                "title": "Host Layer",
+                "desc": "Ultra-Thin Host design with pure configuration-driven assembly shell. Supports both Standalone Host and Embedded Host forms, providing equivalent capability interfaces."
+            },
+            "layer2": {
+                "title": "Capability Contract",
+                "desc": "Defines unified runtime interface standards between plugins: EventBus, StateStore, AuthContext, Lifecycle, Observability."
+            },
+            "layer3": {
+                "title": "Business Plugins",
+                "desc": "Enterprise business capabilities exist as plugins with full lifecycle management: Install → Activate → Update → Disable → Remove. Each plugin can be independently sold and deployed."
+            },
+            "layer4": {
+                "title": "Frontend Runtime",
+                "desc": "Module Federation-based frontend plugin architecture. Shared Runtime provides unified React, Router, State Management, resolving multi-plugin runtime dependency conflicts."
+            },
+            "layer5": {
+                "title": "Infrastructure",
+                "desc": "Cloud-Native architecture, connecting infrastructure through Adapter Pattern, plugin code has zero infrastructure dependencies."
+            }
+        },
+        "techStack": {
+            "title": "Technology Stack",
+            "desc": "Built on proven enterprise-grade open source technologies, ensuring production-level stability and community ecosystem support.",
+            "backend": "Backend: Spring Boot, PostgreSQL, Redis, Kafka",
+            "frontend": "Frontend: React, TypeScript, Module Federation",
+            "observability": "Observability: OpenTelemetry, Prometheus, Grafana",
+            "infrastructure": "Infrastructure: Kubernetes, Docker, Helm"
+        },
+        "fullStack": {
+            "title": "Full-Stack Plugin Architecture",
+            "desc": "Symmetric plugin architecture for frontend and backend. Both exist as plugins running on Host Runtime through unified Capability Contract, achieving Full-Stack Separation.",
+            "components": {
+                "title": "Plugin Structure",
+                "api": "plugin-api",
+                "apiDesc": "Interface Contract Layer - Service contracts and domain models",
+                "core": "plugin-core",
+                "coreDesc": "Core Logic Layer - Business rules and domain service implementations",
+                "server": "plugin-server",
+                "serverDesc": "Service Runtime Layer - REST/GraphQL endpoints and integrations",
+                "shared": "plugin-shared",
+                "sharedDesc": "Shared Capability Layer - Cross-plugin utilities and types",
+                "ui": "plugin-ui-web / plugin-ui-mobile",
+                "uiDesc": "Frontend Layer - Web/Mobile user interface components"
+            },
+            "benefits": {
+                "title": "Architecture Benefits",
+                "b1": "Unified development model, lower cognitive load",
+                "b2": "Independent plugin deployment with canary release support",
+                "b3": "Extremely low extension costs with linear growth",
+                "b4": "Supports long-term platform evolution, avoiding architecture decay"
+            }
+        },
+        "ecosystem": {
+            "title": "Plugin Ecosystem",
+            "desc": "Brix is more than a framework — it's a complete Plugin Ecosystem Platform supporting multi-tier commercial ecosystem development.",
+            "commercial": {
+                "title": "Commercial Layer",
+                "l1": "Level 1",
+                "l2": "Level 2",
+                "l3": "Level 3",
+                "l4": "Level 4",
+                "platform": "Full Platform",
+                "platformDesc": "Complete platform solution with Runtime Shell and all core plugins",
+                "solution": "Solution Pack",
+                "solutionDesc": "Industry solution suite for specific vertical domains",
+                "bundle": "Plugin Bundle",
+                "bundleDesc": "Feature module combinations for specific business scenarios",
+                "plugin": "Single Plugin",
+                "pluginDesc": "Independent feature plugins with plug-and-play atomic capabilities"
+            },
+            "core": {
+                "title": "Core Plugins",
+                "desc": "Platform-provided fundamental business capability plugins"
+            },
+            "solutions": {
+                "title": "Solution Packs",
+                "desc": "Industry-specific plugin combination solutions"
+            },
+            "partner": {
+                "title": "Partner Marketplace",
+                "desc": "Third-party developer published ecosystem applications"
+            }
+        },
+        "devex": {
+            "title": "Developer Experience",
+            "desc": "Runtime Shell complexity is invisible to plugin developers. Developers only need to understand Capability Contracts to build enterprise-grade plugins.",
+            "sdk": {
+                "title": "Plugin SDK",
+                "desc": "Standardized dev kit, focus on business logic"
+            },
+            "cli": {
+                "title": "CLI Scaffolding",
+                "desc": "create-brix generates project structure"
+            },
+            "guard": {
+                "title": "Architecture Guard",
+                "desc": "Automated architecture enforcement"
+            },
+            "tokens": {
+                "title": "Design Tokens",
+                "desc": "Unified design system for UI consistency"
+            },
+            "hotReload": {
+                "title": "Hot Reload",
+                "desc": "Plugin-level hot reload for productivity"
+            },
+            "typeSafe": {
+                "title": "Type Safety",
+                "desc": "End-to-end type safety, compile-time checks"
+            }
+        },
+        "value": {
+            "title": "Core Value",
+            "desc": "Built on Runtime Shell architecture, delivering enterprise-grade platform capabilities.",
+            "platform": {
+                "title": "Zero Infrastructure Dependency",
+                "desc": "Plugins never directly depend on Kafka, Redis, or HTTP clients. All infrastructure interaction goes through Capability Contracts, enabling seamless migration across different Hosts."
+            },
+            "solutions": {
+                "title": "Host Portability",
+                "desc": "Standalone and Embedded Hosts expose identical Capability interfaces. Same plugin runs in different deployment modes without modification. Build Once, Deploy Anywhere."
+            },
+            "ecosystem": {
+                "title": "Event-Driven Decoupling",
+                "desc": "Plugins are unaware of each other, communicating only via Domain Events and Integration Events. Runtime Shell handles event routing and transformation with full observability."
+            },
+            "separation": {
+                "title": "Full-Stack Separation",
+                "desc": "Frontend follows View → ViewModel → Repository pattern. Massive UI changes require zero backend modifications. Frontend and backend teams develop in parallel."
+            }
+        },
+        "vision": {
+            "title": "Long-term Vision",
+            "desc": "Build a Plugin-Driven Industry Platform. Enterprise software becomes not a monolithic system, but a composable software ecosystem like an App Store.",
+            "cta": "Start Exploring"
+        }
+    }
+}

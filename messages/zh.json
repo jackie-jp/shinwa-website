@@ -1,0 +1,266 @@
+{
+    "Hero": 
+    {
+        "badge": "v1.0.0 现已发布！🚀",
+        "title": "信和株式会社",
+        "description": "信和株式会社是一家立足日本的新兴企业，以“信赖”与“和谐”为核心理念，致力于通过多元化业务为客户创造长期价值。公司凭借国际化视野与跨文化沟通优势，积极拓展 IT 咨询与软件开发、医疗中介、不动产及国际贸易四大核心领域。依托丰富的行业经验和专业团队，我们始终将客户的信任放在首位，持续提供高品质、值得依赖的解决方案。",
+        "getStarted": "开始使用",
+        "watchDemo": "观看演示"
+    },
+    "Site": {
+        "title": "信和株式会社",
+        "description": "定制化的 Shadcn UI 模块和组件"
+    },
+    "LanguageDropdown": 
+    {
+        "language": "语言"
+    },
+    
+    "nav-menu": 
+    {
+        "home": "首页",
+        "contactUs": "联系我们",
+        "about": "关于我们",
+        "solution": "解决方案",
+        "websitePreview": "网站预览"
+    }
+    ,
+    "About": {
+        "title": "关于我们",
+        "description": "",
+        "q1": "IT咨询与开发",
+        "a1": "・提供 Web、移动端、PC 端的软件开发与咨询服务\n・提供软件项目管理与 Bridge SE（桥梁 SE）支持\n・拥有丰富的 IT 开发与项目管理经验，能够为客户提供高效且灵活的解决方案",
+        "q2": "医疗中介业务",
+        "a2": "・基于世界顶级的日本医疗资源，为海外客户提供专业的医疗中介服务\n・支持精密体检、医疗翻译、就医安排、医院预约等\n・为需要帮助的人提供值得信赖的便捷医疗服务",
+        "q3": "不动产业务",
+        "a3": "・提供日本国内的不动产买卖、租赁服务\n・专注于一栋公寓的投资，兼顾长期租赁和短期酒店、民宿运营\n・满足日本人租赁文化需求和海外投资者需求",
+        "q4": "国际贸易",
+        "a4": "・将日本优质产品出口到海外市场\n・经营手表、时尚、化妆品、药妆、保健食品等\n・将日本安心、安全、精致的生活方式带给全球客户",
+        "q5": "",
+        "a5": "",
+        "q6": "",
+        "a6": ""
+    },
+    "logo-cloud": {
+        "power": "技术支持与解决方案"
+    }
+    ,
+    "Footer": {
+        "links": {
+            "home": "首页",
+            "about": "关于我们",
+            "contactUs": "联系我们",
+            "solution": "解决方案",
+            "websitePreview": "网站预览"
+        },
+        "subscribe": {
+            "title": "保持更新",
+            "placeholder": "输入你的邮箱",
+            "button": "订阅"
+        },
+        "copyright": {
+            "brand": "信和株式会社",
+            "rights": "。保留所有权利。"
+        }
+    }
+    ,
+    "ContactUs": {
+        "title": "联系我们",
+        "description": "如需技术支持或商务咨询，欢迎随时与我们联系。",
+        "email": "邮箱: shinwa.jp.co@gmail.com",
+        "address": "地址: 日本大阪府大阪市平野区平野市町2丁目6番14号Dream平野D31室，邮编547-0042"
+    },
+    "Solution": {
+        "badge": "Brix Framework v1.0.0 已发布 🎉",
+        "title": "定制化解决方案 EDA & 插件",
+        "desc1": "・「事件驱动的未来，插件化的自由」 — 构建高内聚、低耦合的业务生态。",
+        "desc2": "・「从单体到模块化，从耦合到解耦」 — 一套框架，驾驭复杂业务。",
+        "desc3": "・「天然支持CQRS与事件总线」 — 为初创公司打造的生产级基座。",
+        "getStarted": "开始使用",
+        "watchDemo": "观看演示",
+        "details": "了解详情"
+    }
+    ,
+    "WebsitePreview": {
+        "title": "网站预览画廊",
+        "description": "展示多个网站体验。悬停暂停，点击查看大图。",
+        "view": "查看"
+    },
+    "Brix": {
+        "badge": "开源框架",
+        "title": "BRIX Framework",
+        "subtitle": "下一代插件驱动的企业应用平台。通过 Capability Contract（能力契约）与 Plugin Runtime（插件运行时），将复杂企业系统拆解为可独立开发、部署、升级的业务插件，实现 Composable Platform（可组合平台）架构。",
+        "back": "返回",
+        "pluginDriven": {
+            "title": "Plugin-Driven Platform（插件驱动平台）",
+            "desc": "用插件构建企业系统。Brix 通过插件化能力架构，将企业系统拆分为独立的 Business Capability Plugins（业务能力插件）。",
+            "problems": {
+                "title": "传统企业系统的挑战",
+                "p1": "系统复杂度随业务增长呈指数级上升",
+                "p2": "模块耦合严重，版本升级困难",
+                "p3": "不同客户需求难以快速定制交付",
+                "p4": "系统演进与维护成本居高不下"
+            },
+            "plugins": {
+                "title": "Runtime Capability Contract（运行时能力契约）",
+                "desc": "每个能力都是独立的契约单元。插件仅依赖能力接口，不依赖具体实现，实现跨环境复用与 Hot-Swappable（热插拔）。"
+            }
+        },
+        "modes": {
+            "title": "Deployment Modes（部署模式）",
+            "desc": "Brix 支持三种灵活的部署模式，满足不同商业场景需求。",
+            "standalone": {
+                "title": "Standalone Mode（独立部署模式）",
+                "desc": "构建完整的独立平台产品，适用于 SaaS 交付与私有化部署场景。"
+            },
+            "embedded": {
+                "title": "Embedded Mode（嵌入模式）",
+                "desc": "将业务能力以插件形式嵌入客户现有系统，无需替换客户技术栈，实现渐进式能力增强。"
+            },
+            "sdk": {
+                "title": "SDK & API Mode（开放平台模式）",
+                "desc": "开放平台能力，支持合作伙伴与第三方开发者接入，构建生态系统。"
+            }
+        },
+        "architecture": {
+            "title": "Platform Architecture（平台架构）",
+            "desc": "基于 Runtime Shell（运行壳）架构设计，引入 Capability Contract System（能力契约体系），实现插件与基础设施的彻底解耦。",
+            "layer1": {
+                "title": "Host Layer（平台宿主层）",
+                "desc": "采用 Ultra-Thin Host（极薄宿主）设计，纯配置驱动的组装壳。支持 Standalone Host 与 Embedded Host 两种形态，提供等价的能力接口。"
+            },
+            "layer2": {
+                "title": "Capability Contract（能力契约层）",
+                "desc": "定义插件间统一的运行时接口标准：EventBus（事件总线）、StateStore（状态存储）、AuthContext（鉴权上下文）、Lifecycle（生命周期）、Observability（可观测性）。"
+            },
+            "layer3": {
+                "title": "Business Plugins（业务插件层）",
+                "desc": "企业业务能力以插件形式存在，支持完整生命周期管理：Install → Activate → Update → Disable → Remove。每个插件可独立售卖、独立部署。"
+            },
+            "layer4": {
+                "title": "Frontend Runtime（前端运行时层）",
+                "desc": "基于 Module Federation 的前端插件化架构。Shared Runtime 统一提供 React、Router、State Management，解决多插件运行时依赖冲突。"
+            },
+            "layer5": {
+                "title": "Infrastructure（平台基础设施）",
+                "desc": "Cloud-Native 云原生架构，通过 Adapter Pattern（适配器模式）接入基础设施，插件代码零基础设施依赖。"
+            }
+        },
+        "techStack": {
+            "title": "Technology Stack（技术栈）",
+            "desc": "采用成熟的企业级开源技术栈，确保生产级稳定性与社区生态支持。",
+            "backend": "后端：Spring Boot、PostgreSQL、Redis、Kafka",
+            "frontend": "前端：React、TypeScript、Module Federation",
+            "observability": "可观测性：OpenTelemetry、Prometheus、Grafana",
+            "infrastructure": "基础设施：Kubernetes、Docker、Helm"
+        },
+        "fullStack": {
+            "title": "Full-Stack Plugin Architecture（全栈插件架构）",
+            "desc": "前后端对称的插件架构。前端与后端均以插件形式存在，通过统一的 Capability Contract 运行在 Host Runtime 之上，实现 Full-Stack Separation（前后端完全分离）。",
+            "components": {
+                "title": "Plugin Structure（插件结构）",
+                "api": "plugin-api",
+                "apiDesc": "接口契约层 - 定义服务契约与领域模型",
+                "core": "plugin-core",
+                "coreDesc": "核心逻辑层 - 业务规则与领域服务实现",
+                "server": "plugin-server",
+                "serverDesc": "服务运行层 - REST/GraphQL 端点与集成",
+                "shared": "plugin-shared",
+                "sharedDesc": "共享能力层 - 跨插件复用的工具与类型",
+                "ui": "plugin-ui-web / plugin-ui-mobile",
+                "uiDesc": "前端展示层 - Web/Mobile 用户界面组件"
+            },
+            "benefits": {
+                "title": "Architecture Benefits（架构优势）",
+                "b1": "前后端统一开发模式，降低认知成本",
+                "b2": "插件独立部署，支持灰度发布",
+                "b3": "系统扩展成本极低，线性增长",
+                "b4": "支持大型平台长期演进，避免架构腐化"
+            }
+        },
+        "ecosystem": {
+            "title": "Plugin Ecosystem（插件生态）",
+            "desc": "Brix 不只是一个框架，而是一个完整的 Plugin Ecosystem Platform（插件生态平台），支持多层级商业化生态构建。",
+            "commercial": {
+                "title": "Commercial Layer（商业层级）",
+                "l1": "Level 1",
+                "l2": "Level 2",
+                "l3": "Level 3",
+                "l4": "Level 4",
+                "platform": "Full Platform",
+                "platformDesc": "完整平台解决方案，包含运行壳与全部核心插件",
+                "solution": "Solution Pack",
+                "solutionDesc": "行业解决方案套件，针对特定垂直领域",
+                "bundle": "Plugin Bundle",
+                "bundleDesc": "功能模块组合包，解决特定业务场景",
+                "plugin": "Single Plugin",
+                "pluginDesc": "独立功能插件，即插即用的原子能力"
+            },
+            "core": {
+                "title": "Core Plugins（核心插件）",
+                "desc": "平台提供的基础业务能力插件"
+            },
+            "solutions": {
+                "title": "Solution Packs（行业解决方案）",
+                "desc": "面向特定行业的插件组合方案"
+            },
+            "partner": {
+                "title": "Partner Marketplace（合作伙伴市场）",
+                "desc": "第三方开发者发布的生态应用"
+            }
+        },
+        "devex": {
+            "title": "Developer Experience（开发者体验）",
+            "desc": "运行壳复杂度对插件开发者不可见。开发者只需了解 Capability Contract，即可构建企业级插件。",
+            "sdk": {
+                "title": "Plugin SDK",
+                "desc": "标准化开发套件，专注业务逻辑开发"
+            },
+            "cli": {
+                "title": "CLI Scaffolding",
+                "desc": "create-brix 一键生成项目结构"
+            },
+            "guard": {
+                "title": "Architecture Guard",
+                "desc": "自动化架构守护，防止依赖越界"
+            },
+            "tokens": {
+                "title": "Design Tokens",
+                "desc": "统一设计系统，确保 UI 一致性"
+            },
+            "hotReload": {
+                "title": "Hot Reload",
+                "desc": "插件级热重载，提升开发效率"
+            },
+            "typeSafe": {
+                "title": "Type Safety",
+                "desc": "端到端类型安全，编译期错误发现"
+            }
+        },
+        "value": {
+            "title": "Core Value（核心价值）",
+            "desc": "基于 Runtime Shell 架构设计，提供企业级平台能力。",
+            "platform": {
+                "title": "Zero Infrastructure Dependency（零基础设施依赖）",
+                "desc": "插件代码中禁止出现 Kafka/Redis/HTTP Client 等基础设施依赖，仅通过 Capability Contract 与运行时交互。插件可在不同 Host 间无缝迁移。"
+            },
+            "solutions": {
+                "title": "Host Portability（宿主可移植性）",
+                "desc": "Standalone Host 与 Embedded Host 提供等价的 Capability 接口，同一插件无需修改即可运行在不同模式下，实现 Build Once, Deploy Anywhere。"
+            },
+            "ecosystem": {
+                "title": "Event-Driven Decoupling（事件驱动解耦）",
+                "desc": "插件间互不感知，仅通过 Domain Event 与 Integration Event 通信。Runtime Shell 负责事件路由与转换，所有跨插件通信完全可观测。"
+            },
+            "separation": {
+                "title": "Full-Stack Separation（前后端完全分离）",
+                "desc": "前端采用 View → ViewModel → Repository 三层分离架构，大规模 UI 样式修改时后端代码零改动，确保前后端团队并行开发。"
+            }
+        },
+        "vision": {
+            "title": "长期愿景",
+            "desc": "构建插件驱动的行业平台。让企业软件不再是单体系统，而是像 App Store 一样的可组合软件生态。",
+            "cta": "开始探索"
+        }
+    }
+}
